@@ -29,8 +29,8 @@ const skillsSection = {
   title: "What i do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Develop full stack web and mobile applications"),
+    emoji("⚡ Progressive Web Applications ( PWA )"),
     emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
   ],
 
@@ -99,11 +99,11 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      Stack: "Flutter Development",  //Insert stack or technology you have experience in
+      progressPercentage: "80%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "MERN Stack",
       progressPercentage: "70%"
     },
     {
