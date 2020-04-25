@@ -116,7 +116,7 @@ const techStack = {
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
-const openSource = {
+const pinnedProjects = {
   githubConvertedToken: "NWQ2NzZkYjE1MmFjYzVkZDJjODJlOWEzZDgyNTQxOGI1YmNkOTNkYQ==",
   githubUserName: "Thisuru"
 };
@@ -148,7 +148,7 @@ const blogSection = {
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
       title: "Knallerfalke: Reselling Deal-Finder app",
-      description: "Offers-Reselling-Products-FlutterApp. This app can be download from Play Store and App Store "
+      description: "Offers-Reselling-Products-FlutterApp. This app can be download from Play Store and App Store. This is a Fiver Open Source project "
     },
     {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
@@ -167,30 +167,30 @@ const achievementSection = {
 
   achivementsCards: [
     {
-      title: "Google Code-In Finalist",
-      description: "First Pakistani to be selected as Google Google-in Finalist from 4000 students from 77 diffrent countries",
+      title: "Inter Class Chess Tournament-2006 : 2nd Place",
+      description: "Organized by Russian School of Chess(Russian Chess Club) Russian center in Colombo",
       image:
         "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Google_Assistant_logo.svg/1200px-Google_Assistant_logo.svg.png",
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        { name: "Certification", url: "" },
+        // { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
+        // { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
       ]
     },
     {
-      title: "Google Assistant Action",
-      description: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+      title: "MoraXtream 3.0 Coding competition 2018",
+      description: "It was a Coding Competition organized by Moratuwa university IEEE student branch and we got 21st place out of 120+ teams",
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Google_Assistant_logo.svg/1200px-Google_Assistant_logo.svg.png",
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
+      footerLink: [{ name: "Certification", url: "" }]
     },
 
     {
-      title: "PWA Web App Developer",
-      description: "Completed Certifcation from SMIT for PWA Web App Development",
+      title: "Granted Diploma in YMBA Exam (English Medium)",
+      description: "Completed Certifcation in YMBA",
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Google_Assistant_logo.svg/1200px-Google_Assistant_logo.svg.png",
       footerLink: [
         { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+        // { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
       ]
     }
   ]
@@ -259,4 +259,4 @@ const twitterDetails = {
   userName : "ThisuruDeesan"//Replace "twitter" with your twitter username without @
   
 };
-export { greeting, socialMediaLinks, skillsSection, techStack, openSource, achievementSection, blogSection, talkSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, techStack, pinnedProjects, achievementSection, blogSection, talkSection, contactInfo , twitterDetails};

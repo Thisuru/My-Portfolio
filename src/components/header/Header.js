@@ -20,17 +20,17 @@ function Header() {
           <li>
             <a href="#skills">Skills</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#projects">Projects</a>
+          </li> */}
+          <li>
+            <a href="#pinnedProjects">Projects</a>
           </li>
           <li>
-            <a href="#opensource">Open Source</a>
+            <a href="#blogs">Big Projects</a>
           </li>
           <li>
-            <a href="#blogs">Blogs</a>
-          </li>
-          <li>
-            <a href="#talks">Talks</a>
+            <a href="#talks">Stackoverflow</a>
           </li>
           <li>
             <a href="#achievements">Achievements</a>
