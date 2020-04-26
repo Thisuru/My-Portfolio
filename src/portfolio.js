@@ -146,12 +146,12 @@ const blogSection = {
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      url: "https://github.com/Thisuru/Offers-Reselling-Products-FlutterApp",
       title: "Knallerfalke: Reselling Deal-Finder app",
       description: "Offers-Reselling-Products-FlutterApp. This app can be download from Play Store and App Store. This is a Fiver Open Source project "
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      url: "https://github.com/Thisuru/foodhub_final",
       title: "Food Hub: Food Delivering App",
       description: "Food Hub is developed by using REACT. It includes a REACT NATIVE mobile app."
     }
@@ -210,7 +210,7 @@ const achievementSection = {
 //       description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min."
 //     },
 //     {
-//       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+//       url: "https://github.com/Thisuru/foodhub_final",
 //       title: "Why REACT Is The Best?",
 //       description: "React is a JavaScript library for building the user interface. It is maintained by Facebook and a community of individual developers and companies."
 //     }
