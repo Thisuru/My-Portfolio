@@ -117,7 +117,7 @@ const techStack = {
 To know how to get github key look at readme.md */
 
 const pinnedProjects = {
-  githubConvertedToken: "NWQ2NzZkYjE1MmFjYzVkZDJjODJlOWEzZDgyNTQxOGI1YmNkOTNkYQ==",
+  githubConvertedToken: "NTYyNTUyNGViYWU2OWI5OWZmMTMyY2I3YmY3ZDY3YjM1MDc5ZmZhZQ==",
   githubUserName: "Thisuru"
 };
 

@@ -4,7 +4,7 @@ import { gql } from "apollo-boost";
 import "./Project.css";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import Button from "../../components/button/Button";
-import { pinnedProjects } from "../../portfolio";
+import { pinnedProjects, socialMediaLinks } from "../../portfolio";
 import { Fade } from "react-reveal";
 
 export default function Projects() {
@@ -13,6 +13,54 @@ export default function Projects() {
   useEffect(() => {
     getRepoData();
   }, []);
+
+  // function getRepoData() {
+  //   const client = new ApolloClient({
+  //     uri: "https://api.github.com/graphql",
+  //     request: operation => {
+  //       operation.setContext({
+  //         headers: {
+  //           authorization: `Bearer ${atob(pinnedProjects.githubConvertedToken)}`
+  //         }
+  //       });
+  //     }
+  //   });
+
+  //   client
+  //     .query({
+  //       query: gql`
+  //         {
+  //           repositoryOwner(login: "${pinnedProjects.githubUserName}") {
+  //             ... on User {
+  //               pinnedRepositories(first: 6) {
+  //                 edges {
+  //                   node {
+  //                     nameWithOwner
+  //                     description
+  //                     forkCount
+  //                     stargazers {
+  //                       totalCount
+  //                     }
+  //                     url
+  //                     id
+  //                     diskUsage
+  //                     primaryLanguage {
+  //                       name
+  //                       color
+  //                     }
+  //                   }
+  //                 }
+  //               }
+  //             }
+  //           }
+  //         }
+  //       `
+  //     })
+  //     .then(result => {
+  //       setrepoFunction(result.data.repositoryOwner.pinnedRepositories.edges);
+  //       console.log(result);
+  //     });
+  // }
 
   function getRepoData() {
     const client = new ApolloClient({
@@ -29,35 +77,36 @@ export default function Projects() {
     client
       .query({
         query: gql`
-          {
-            repositoryOwner(login: "${pinnedProjects.githubUserName}") {
-              ... on User {
-                pinnedRepositories(first: 6) {
-                  edges {
-                    node {
-                      nameWithOwner
-                      description
-                      forkCount
-                      stargazers {
-                        totalCount
-                      }
-                      url
-                      id
-                      diskUsage
-                      primaryLanguage {
-                        name
-                        color
-                      }
-                    }
+        {
+        user(login: "${pinnedProjects.githubUserName}") {
+          pinnedItems(first: 6, types: [REPOSITORY]) {
+            totalCount
+            edges {
+              node {
+                ... on Repository {
+                  name
+                  description
+                  forkCount
+                  stargazers {
+                    totalCount
+                  }
+                  url
+                  id
+                  diskUsage
+                  primaryLanguage {
+                    name
+                    color
                   }
                 }
               }
             }
           }
+        }
+      }
         `
       })
       .then(result => {
-        setrepoFunction(result.data.repositoryOwner.pinnedRepositories.edges);
+        setrepoFunction(result.data.user.pinnedItems.edges);
         console.log(result);
       });
   }
@@ -75,7 +124,7 @@ export default function Projects() {
           return <GithubRepoCard repo={v} key={v.node.id} />;
         })}
       </div>
-      <Button text={"More Projects"} className="project-button" href="https://github.com/Thisuru" newTab={true} />
+      <Button text={"More Projects"} className="project-button" href={socialMediaLinks.github} newTab={true} />
     </div>
     </Fade>
   );
