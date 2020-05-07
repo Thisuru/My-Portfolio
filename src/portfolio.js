@@ -1,6 +1,7 @@
 ﻿
 /* Change this file to get your personal Portfolio */
-//Domain URL : http://unruly-route.surge.sh/
+//Surge URL : http://lucky-trade.surge.sh/
+//Domain URL : http://thisurudeesan.tech/
 // Your Summary And Greeting Section
 
 import emoji from "react-easy-emoji";
@@ -9,7 +10,8 @@ const greeting = {
   /* Your Summary And Greeting Section */
   title: "Hi all I'm Thisuru",
   subTitle: emoji("A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native / Flutter and some other cool libraries and frameworks"),
-  resumeLink: "https://drive.google.com/open?id=1_Tgpe2PCuJjMhI7ZrgfexUCJ2IbRlGUz"
+  resumeLink: ""
+  // resumeLink: "https://drive.google.com/open?id=1_Tgpe2PCuJjMhI7ZrgfexUCJ2IbRlGUz"
 };
 
 // Your Social Media Link
@@ -248,8 +250,8 @@ const talkSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Just want to say hi my inbox is open for all",
-  number: "+94-772822998",
-  email_address: "thisurudk@gmail.com"
+  number: "+94-*********",
+  email_address: "thisuru**@gmail.com"
 };
 
 //Twitter Section
