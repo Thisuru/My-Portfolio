@@ -187,11 +187,11 @@ const achievementSection = {
     },
 
     {
-      title: "Granted Diploma in YMBA Exam (English Medium)",
-      description: "Completed Certifcation in YMBA",
+      title: "Getting Started with AWS Machine Learning",
+      description: "Learnt the Key problems that Machine Learning can address and ultimately help solve.",
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Google_Assistant_logo.svg/1200px-Google_Assistant_logo.svg.png",
       footerLink: [
-        { name: "Certification", url: "" },
+        { name: "Certification", url: "https://coursera.org/share/a86bec468e5deaf331116f2021293c73" },
         // { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
       ]
     }
@@ -250,8 +250,8 @@ const talkSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Just want to say hi my inbox is open for all",
-  number: "+94-*********",
-  email_address: "thisuru**@gmail.com"
+  number: "+94-123456789",
+  email_address: "thisurudk@gmail.com"
 };
 
 //Twitter Section
