@@ -3,14 +3,15 @@
 //Surge URL : http://lucky-trade.surge.sh/
 //Domain URL : http://thisurudeesan.tech/
 // Your Summary And Greeting Section
+//When you deploy after a change, cd to build directory and run "surge --domain lucky-trade.surge.sh"
 
 import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
   title: "Hi all I'm Thisuru",
-  subTitle: emoji("A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native / Flutter and some other cool libraries and frameworks"),
-  resumeLink: ""
+  subTitle: emoji("A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / Flutter and some other cool libraries and frameworks"),
+  resumeLink: "https://drive.google.com/file/d/1uHH4cjfEnNLEJKXCWInxgzzDX6cEZLUH/view?usp=sharing"
   // resumeLink: "https://drive.google.com/open?id=1_Tgpe2PCuJjMhI7ZrgfexUCJ2IbRlGUz"
 };
 
@@ -33,7 +34,7 @@ const skillsSection = {
   skills: [
     emoji("⚡ Develop full stack web and mobile applications"),
     emoji("⚡ Progressive Web Applications ( PWA )"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Integration of third party services such as Firebase/ AWS / Azure ")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -148,9 +149,9 @@ const blogSection = {
 
   blogs: [
     {
-      url: "https://github.com/Thisuru/Offers-Reselling-Products-FlutterApp",
+      url: "https://www.knallerfalke.de/",
       title: "Knallerfalke: Reselling Deal-Finder app",
-      description: "Offers-Reselling-Products-FlutterApp. This app can be download from Play Store and App Store. This is a Fiver Open Source project "
+      description: "Offers-Reselling-Products-FlutterApp. This app can be download from Play Store and App Store. This is a Fiver Open Source project. Click this and find play Store and App Store download links "
     },
     {
       url: "https://github.com/Thisuru/foodhub_final",
@@ -250,7 +251,7 @@ const talkSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Just want to say hi my inbox is open for all",
-  number: "+94-123456789",
+  number: "+94 77 282 2998",
   email_address: "thisurudk@gmail.com"
 };
 
