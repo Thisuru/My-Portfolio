@@ -3,7 +3,7 @@
 //Surge URL : http://lucky-trade.surge.sh/
 //Domain URL : http://thisurudeesan.tech/
 // Your Summary And Greeting Section
-//When you deploy after a change, cd to build directory and run "surge --domain lucky-trade.surge.sh"
+//When you deploy after a change, cd to build directory and run "surge --domain lucky-trade.surge.sh"  
 
 import emoji from "react-easy-emoji";
 
@@ -11,7 +11,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   title: "Hi all I'm Thisuru",
   subTitle: emoji("A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / Flutter and some other cool libraries and frameworks"),
-  resumeLink: "https://drive.google.com/file/d/1uHH4cjfEnNLEJKXCWInxgzzDX6cEZLUH/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1qMBdhCLuEquP4nho3P4l3_ZFFeVo3vTJ/view?usp=sharing"
   // resumeLink: "https://drive.google.com/open?id=1_Tgpe2PCuJjMhI7ZrgfexUCJ2IbRlGUz"
 };
 
